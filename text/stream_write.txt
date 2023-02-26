@@ -1,0 +1,43 @@
+git -- version : check git exist or not in the computer && if exist then which version it has
+git config --global user.name : For Name
+git config --global user.email : For Email
+pwd : check the current path 
+cd : change the current directory
+	if folder name is more than one word then : cd 'folder name'
+ls : used to check the folders whatever present in the current path folder
+git status : used to check there is any changes in the current folder or not
+git init : used to create a repositry of the current folder in remote area
+git add : to move the folder into stage area
+	add all -> git add .
+git clone : used to copy an esixting repositry in current folder
+git commit  -m " messege" : used to add changes in local repositry
+git show : showing changes of the folder
+git branch : to see the brance
+	1. git branch <branch name> : create branch
+	2. git branch -d <branch name> : delete branch
+	3. git checkout <branch name> : to switch branch
+cd - : previous directory
+git remote add origin https://..... : connect remote area with local repo
+git push -u origin master : push in github
+cd 'File Name' -> where File Name is more than one word
+git branch -a : fir all the branches
+git branch -m master main : master to main (applicable for all branches)
+git remote remove origin : used to remove the current origin
+git branch adi : create anew branch named adi
+git checkout adi : switch to adi branch
+git branch -d adi : delete adi branch
+git push origin --delete adi : delete adi branch remote area
+ git branch -av : show all branch local and remote area
+git branch : show all branches in local area
+1st time push : 
+	1. git pull --rebase origin main
+	2. git push origin master
+	3. make pull request and add it.
+new origin : git remote set-url origin https://..........
+rm -rf .git -> to delete the local repo
+q enter -> for write commands if stuck somewhere
+token : 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
+REDEMPTION CODE : qmsxout6itwbouejpelveq
+
+
+All Credit goes to Mr. Aditya Dey

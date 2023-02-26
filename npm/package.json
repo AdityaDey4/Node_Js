@@ -1,0 +1,19 @@
+{
+  "name": "first_npm_package",
+  "version": "1.0.0",
+  "description": "creating a npm package for the very first time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Aditya Dey",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
